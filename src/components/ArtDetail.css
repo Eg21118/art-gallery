@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f5e6;  
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .art-detail-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .back-button {
+    padding: 12px 28px;
+    font-size: 16px;
+    background-color: #d2b48c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .back-button:hover {
+    background-color: #b08b57;
+  transform: translateY(-5px);
+  }
+
+  .back-button:active {
+    transform: translateY(2px);
+  }
+  
+  .art-detail-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .art-detail-image-container {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .art-detail-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .art-detail-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .art-detail-info {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .art-detail-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .art-detail-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: justify;
+  }
+  
+  .art-detail-meta {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .art-detail-meta strong {
+    color: #34495e;
+  }
+  
